@@ -3,7 +3,7 @@ const INTERVAL_KEY = "INTERVAL_KEY";
 const DEFAULT_INTERVAL = "1000";
 
 const NICS = [
-    "https://images.wired.it/gallery/131607/Big/37493d96-2b60-4164-b730-cc0717c36f18.jpeg", // supes
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Capybara_%28Hydrochoerus_hydrochaeris%29.JPG/1200px-Capybara_%28Hydrochoerus_hydrochaeris%29.JPG", // wikipedia Capybara 1
     "https://i0.wp.com/www.cinezapping.com/wp-content/uploads/2011/01/nicolas-cage_06.jpg", // moonstruck
     "https://3.bp.blogspot.com/-JQqV60o8x0A/Wzexrjx2UKI/AAAAAAAABE4/EwrkZFh0wQ4-LXassGyOZsiWFDgEY9brACLcBGAs/w1200-h630-p-k-no-nu/Nic-Cage.jpg", // mandy
     "https://live.staticflickr.com/3242/5818160547_9d1bb744d4.jpg", // hotty
