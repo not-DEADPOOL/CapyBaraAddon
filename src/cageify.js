@@ -7,7 +7,7 @@ const NICS = [
     "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Bristol.zoo.capybara.arp.jpg/1200px-Bristol.zoo.capybara.arp.jpg", // wikipedia Capybara 2
     "https://cdn.britannica.com/77/191677-050-3CBF2834/Capybara.jpg", // enciclopedia Capybara
     "https://inaturalist-open-data.s3.amazonaws.com/photos/91546944/large.jpg", // sitting capy
-    "https://live.staticflickr.com/1461/25524427682_c3757f7989_z.jpg", 
+    "https://s7d2.scene7.com/is/image/TWCNews/akron-zoo-capybara-oh-102522_10252022", // sitting capy2
     "https://c4.wallpaperflare.com/wallpaper/400/158/569/nicolas-cage-actor-man-face-wallpaper-preview.jpg",
     "http://www.slicktiger.co.za/wp-content/uploads/2011/11/nic_cage_faceoff11.jpg",
     "http://4.bp.blogspot.com/_N91xwP-lKvw/TFjSKU-ETZI/AAAAAAAABlc/-mAlrcPNZeI/s400/nickcagevampkiss.jpg", 
