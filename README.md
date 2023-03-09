@@ -1,2 +1,2 @@
 # CapyBaraAddon
-NicCage Addon (by pvrs12) but with Coconut Doggy
+NicCage Addon (by pvrs12) but now it's all Coconut Doggys
