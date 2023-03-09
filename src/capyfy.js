@@ -2,7 +2,7 @@ const INTERVAL_KEY = "INTERVAL_KEY";
 // default to 1s refresh window
 const DEFAULT_INTERVAL = "1000";
 
-const NICS = [//I've just replaced Nicolas Cage's images with capybaras 
+const CAPIS = [//I've just replaced Nicolas Cage's images with capybaras 
     "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Capybara_%28Hydrochoerus_hydrochaeris%29.JPG/1200px-Capybara_%28Hydrochoerus_hydrochaeris%29.JPG", // wikipedia Capybara 1
     "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Bristol.zoo.capybara.arp.jpg/1200px-Bristol.zoo.capybara.arp.jpg", // wikipedia Capybara 2
     "https://cdn.britannica.com/77/191677-050-3CBF2834/Capybara.jpg", // enciclopedia Capybara
@@ -33,9 +33,9 @@ const NICS = [//I've just replaced Nicolas Cage's images with capybaras
     "https://preview.redd.it/az3nid9sc9i81.jpg?width=640&crop=smart&auto=webp&s=46237c467cfb665dcc1ec92c80a5a49ee58fdfa5", //sing
 ]
 
-function getNic() {
-    let nicNum = Math.floor(Math.random()*NICS.length);
-    return NICS[nicNum];
+function getCap() {
+    let capNum = Math.floor(Math.random()*CAPIS.length);
+    return CAPIS[capNum];
 }
 
 function replaceImages() {
@@ -52,7 +52,7 @@ function replaceImages() {
         img.style.height = img.height + 'px';
 
         // nic-em
-        let loc = getNic()
+        let loc = getCap()
         img.src = loc;
         if(img.srcset){
             img.srcset = loc;
