@@ -22,7 +22,7 @@
 				"*://*/*"
 			],
 			"js": [
-				"cageify.js"
+				"capyfy.js"
 			]
 		}
 	],
