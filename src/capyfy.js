@@ -31,6 +31,11 @@ const CAPIS = [//I've just replaced Nicolas Cage's images with capybaras
     "https://zooboise.org/content/uploads/2015/07/dreamstime_15775602.jpg", //water
     "https://i.ytimg.com/vi/ClVV3BU2R28/hqdefault.jpg", //ok he pull up
     "https://preview.redd.it/az3nid9sc9i81.jpg?width=640&crop=smart&auto=webp&s=46237c467cfb665dcc1ec92c80a5a49ee58fdfa5", //sing
+    "https://media.tenor.com/K3uxrqffdCAAAAAC/capybara-orange.gif", //orange
+    "https://media2.giphy.com/media/AQpUsaKCRD9gA/200w.gif?cid=6c09b952z1u2h2p7lmo807jnhzvzluu65mvcd6zlrdnx9ej0&rid=200w.gif&ct=g", //pat pat
+    "https://media.tenor.com/p-xvDIYCOCUAAAAC/capybara.gif", //eating lattuche
+    "https://media.tenor.com/JN3qS44yAZsAAAAM/capybara.gif", //eating watermelon
+    "https://media.tenor.com/g05O_S6b0f4AAAAd/capybara-ok-i-pull-up.gif" //ok I pull up
 ]
 
 function getCap() {
@@ -42,10 +47,10 @@ function replaceImages() {
     for(let i = 0; i < document.images.length; ++i) {
         let img = document.images[i];
 
-        if(img.classList.contains('nicced')){
+        if(img.classList.contains('gotcapy')){
             continue;
         }
-        img.classList.add('nicced');
+        img.classList.add('gotcapy');
 
         // attempt to retain the original dimensions
         img.style.width = img.width + 'px';
