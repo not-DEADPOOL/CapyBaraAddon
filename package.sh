@@ -1,2 +1,2 @@
 #!/bin/sh
-cd src && jar -cMf ../capy.xpi *
+cd src && jar -cMf ../Capyfi.xpi *
